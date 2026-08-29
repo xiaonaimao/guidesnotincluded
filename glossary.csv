@@ -18,8 +18,8 @@ Carbon Dioxide,二氧化碳,19,265,官方译名,元素,
 cooling loop,冷却回路,19,81,社区通用,社区用语,
 Steel,钢,18,94,官方译名,元素,
 Hydrogen,氢气,17,306,官方译名,元素,
-Thermo Aquatuner,液冷机,17,274,社区通用,建筑,亦称液体温控器/AT；官串未检索到
-Storage Bin,储物箱,17,192,社区通用,建筑,
+Thermo Aquatuner,液温调节器,17,274,官方译名,建筑,亦称液体温控器/AT；官串未检索到；官方锚 2026-08-30
+Storage Bin,存储箱,17,192,官方译名,建筑,官方锚 2026-08-30
 cycle,周期,17,50,官方译名,机制,游戏内一天；po: UI.ASTEROIDCLOCK.CYCLE
 liquid pipe,液体管道,17,43,社区通用,建筑,
 Petroleum,石油,16,148,官方译名,元素,
@@ -28,7 +28,7 @@ biome,生态群系,16,93,待确认,机制,亦称群落/群系
 Spaced Out,《眼冒金星！》（DLC）,16,31,官方译名,专有名词,DLC 官方中文名
 germ,病菌,15,278,官方译名,机制,
 Wire,电线,15,127,官方译名,建筑,po: PREFABS.WIRE
-atmo suit,太空服,15,65,官方译名,机制,po: SUITS=太空服；亦称气压服
+atmo suit,气压服,15,65,官方译名,机制,po: SUITS=太空服；亦称气压服；官方锚 2026-08-30
 DLC,DLC（资料片）,15,35,社区通用,专有名词,
 SPOM,SPOM（自持供氧模块）,14,194,社区通用,社区用语,Self-Powered Oxygen Module，保留英文
 Rocket,火箭,14,130,官方译名,建筑,
@@ -45,7 +45,7 @@ priority,优先级,12,84,官方译名,机制,
 Deconstruct,拆除,12,19,官方译名,界面,po: TOOLS.DECONSTRUCT=拆除工具
 Chlorine,氯气,11,162,官方译名,元素,
 Gas Pump,气泵,11,39,官方译名,建筑,po: PREFABS.GASPUMP
-gas pipe,气管,11,27,社区通用,建筑,
+gas pipe,气体管道,11,27,官方译名,建筑,官方锚 2026-08-30
 Coal,煤,10,292,官方译名,元素,
 Anti-Entropy Thermo-Nullifier,反熵消热器（AETN）,10,92,官方译名,建筑,po: PREFABS.MASSIVEHEATSINK
 Carbon Skimmer,碳素脱离器,10,78,待确认,建筑,
@@ -76,7 +76,7 @@ insulation,隔热,8,27,官方译名,机制,
 Bed,床,8,26,官方译名,建筑,
 debuff,负面效果,8,23,社区通用,社区用语,
 Polluted Oxygen,污染氧,7,70,官方译名,元素,
-Radbolt,辐射粒子,7,37,待确认,机制,
+Radbolt,辐射粒子,7,37,官方译名,机制,官方键疑似单位后缀误匹配，用户裁决保留（2026-08-30）
 watt,瓦特,7,23,官方译名,机制,
 Sweep,清扫,7,18,社区通用,界面,
 ONI,《缺氧》（缩写）,7,17,社区通用,专有名词,
@@ -93,7 +93,7 @@ meteor shower,流星雨,6,26,官方译名,机制,
 trait,特质,6,16,社区通用,机制,
 buff,增益效果,6,15,社区通用,社区用语,
 Disinfect,消毒,6,13,官方译名,界面,po: AUTODISINFECTABLE
-Germ Overlay,病菌视图（F9）,6,11,官方译名,界面,po: OVERLAYS.*=X视图
+Germ Overlay,病菌概览（F9）,6,11,官方译名,界面,po: OVERLAYS.*=X视图；官方锚 2026-08-30
 Insulated Tile,隔热砖,6,11,官方译名,建筑,po: PREFABS.INSULATIONTILE
 Liquid Vent,排液口,6,11,官方译名,建筑,po: PREFABS.LIQUIDVENT
 metal volcano,金属火山,6,11,社区通用,社区用语,
@@ -104,7 +104,7 @@ Polluted Dirt,污染土,5,36,官方译名,元素,
 Super Computer,超级计算机,5,30,官方译名,建筑,po: ROOMS.CRITERIA
 Copper Ore,铜矿,5,27,官方译名,元素,
 Great Hall,豪华餐厅,5,26,官方译名,机制,po: ROOMS.TYPES.GREATHALL
-Harvest,采集,5,26,官方译名,界面,po: TOOLS.HARVEST
+Harvest,收获,5,26,官方译名,界面,po: TOOLS.HARVEST；官方锚 2026-08-30
 Printing Pod,打印舱,5,26,官方译名,建筑,po: CODEX.HEADQUARTERS
 Compost,堆肥,5,25,官方译名,建筑,po: PREFABS.COMPOST
 seed (map),种子号（地图种子）,5,22,社区通用,社区用语,与植物 seed 同形，按语境
@@ -130,11 +130,11 @@ fire pole,滑杆,4,14,官方译名,建筑,po: PREFABS.FIREPOLE
 interest,兴趣,4,9,官方译名,机制,po: APTITUDES=兴趣
 Lavatory,抽水马桶,4,9,待确认,建筑,
 Mullematsch,Mullematsch（不译）,4,8,社区通用,人名站点,
-Oxygen Overlay,氧气视图（F1）,4,8,官方译名,界面,po: OVERLAYS.*=X视图
+Oxygen Overlay,氧气概览（F1）,4,8,官方译名,界面,po: OVERLAYS.*=X视图；官方锚 2026-08-30
 Phosphorite,磷矿,4,8,待确认,元素,
-Lit Workspace,明亮工作区,4,7,待确认,机制,
+Lit Workspace,明亮的工作区,4,7,官方译名,机制,官方锚 2026-08-30
 Agriculture,农业（科技分支）,4,6,官方译名,机制,po: TECHS.AGRICULTURE
-Room Overlay,房间视图,4,6,官方译名,界面,po: OVERLAYS.*=X视图
+Room Overlay,房间概览,4,6,官方译名,界面,po: OVERLAYS.*=X视图；官方锚 2026-08-30
 Kiln,窑炉,4,5,官方译名,建筑,po: PREFABS.KILN
 Move to,前往,4,5,官方译名,界面,po: CHORES.MOVETO
 Refrigerator,冰箱,4,5,官方译名,建筑,po: PREFABS.REFRIGERATOR
@@ -147,20 +147,20 @@ freshness,新鲜度,3,13,社区通用,机制,
 Igneous Rock,火成岩,3,10,官方译名,元素,
 Airlock,气动门,3,9,待确认,建筑,
 Shine Bug,发光虫,3,8,官方译名,生物,po: CODEX.SHINEBUG
-Cot,简易床,3,7,待确认,建筑,po: MEDICALCOT=医疗床，基础款未检索到
-Barracks,营房,3,6,官方译名,机制,po: ROOMS.TYPES.BARRACKS
-hydrogen vent,氢气喷口,3,4,待确认,社区用语,
+Cot,床铺,3,7,官方译名,建筑,po: MEDICALCOT=医疗床，基础款未检索到；官方锚 2026-08-30
+Barracks,宿舍,3,6,官方译名,机制,po: ROOMS.TYPES.BARRACKS；官方锚 2026-08-30
+hydrogen vent,氢气喷孔,3,4,官方译名,社区用语,官方锚 2026-08-30
 Mesh Tile,网格砖,3,4,官方译名,建筑,po: PREFABS.MESHTILE
 Muckroot,淤泥根,3,4,官方译名,食物,po: CODEX.MUCKROOT
 Hydroponic Farm,液培砖,2,18,官方译名,建筑,po: PREFABS.HYDROPONICFARM
-Polymer Press,聚合物压塑机,2,15,待确认,建筑,
+Polymer Press,聚合物压塑器,2,15,官方译名,建筑,官方锚 2026-08-30
 Planter Box,种植箱,2,13,官方译名,建筑,po: PREFABS.PLANTERBOX
 Manual Generator,人力发电机,2,12,官方译名,建筑,po: PREFABS.MANUALGENERATOR
 Balm Lily,芳香百合,2,7,官方译名,植物,po: CODEX.BALMLILY
 checkpoint,复制人检查站,2,7,官方译名,机制,po: PREFABS.CHECKPOINT
-Critter Drop-off,小动物投放点,2,7,待确认,建筑,
+Critter Drop-off,小动物放生点,2,7,官方译名,建筑,官方锚 2026-08-30
 Desalinator,脱盐器,2,7,待确认,建筑,
-Shearing Station,剪毛站,2,7,官方译名,建筑,po: PREFABS.SHEARINGSTATION
+Shearing Station,修剪站,2,7,官方译名,建筑,po: PREFABS.SHEARINGSTATION；官方锚 2026-08-30
 Interstellar Research,星际研究,2,6,待确认,机制,
 Lime,石灰,2,6,官方译名,元素,
 duplicant selection,重抽（reroll）,2,5,社区通用,社区用语,
@@ -174,35 +174,35 @@ door permission,门权限,2,2,社区通用,社区用语,
 Employment,职业管理,2,2,官方译名,机制,用户裁决 2026-08-30（现行官中；旧串表无此科技名）
 heat transfer,热传递,2,2,官方译名,机制,
 Oxygen Not Included Wiki,ONI Wiki（不译）,2,2,社区通用,人名站点,
-Temperature Overlay,温度视图,2,2,官方译名,界面,po: OVERLAYS.*=X视图
+Temperature Overlay,温度概览,2,2,官方译名,界面,po: OVERLAYS.*=X视图；官方锚 2026-08-30
 Terra,类地星体（星球名，不译）,2,2,待确认,专有名词,
 Duplicant Priorities,复制人优先级,1,18,待确认,机制,
 Hydrogen Generator,氢气发电机,1,17,官方译名,建筑,po: PREFABS.HYDROGENGENERATOR
 Wheezewort,冰息萝卜,1,10,官方译名,植物,po: CODEX.WHEEZEWORT
-cool steam vent,冷蒸汽喷口,1,9,待确认,社区用语,
-Novice Research,初级研究,1,8,待确认,机制,
+cool steam vent,低温蒸汽喷孔,1,9,官方译名,社区用语,官方锚 2026-08-30
+Novice Research,基础研究,1,8,官方译名,机制,官方锚 2026-08-30
 Oil Reservoir,储油石,1,8,待确认,建筑,
 Building Priorities,建筑优先级,1,7,待确认,机制,
-Grooming Station,照料站,1,7,待确认,建筑,po: RANCH_STATION 译“清洁站”
+Grooming Station,梳理站,1,7,官方译名,建筑,po: RANCH_STATION 译“清洁站”；官方锚 2026-08-30
 gas lock,气锁,1,5,社区通用,社区用语,
 Domestic Growth,人工种植,1,4,社区通用,机制,
-Light Overlay,光照视图（F5）,1,4,官方译名,界面,po: OVERLAYS.*=X视图
+Light Overlay,光照概览（F5）,1,4,官方译名,界面,po: OVERLAYS.*=X视图；官方锚 2026-08-30
 Basic Farming,基础耕种,1,3,待确认,机制,
 Pacu,帕库鱼,1,3,官方译名,生物,po: SPECIES.PACU
-Enable Proximity,启用就近原则,1,2,待确认,界面,
+Enable Proximity,启用临近性,1,2,官方译名,界面,官方锚 2026-08-30
 Granite,花岗岩,1,2,官方译名,元素,
 Obsidian,黑曜石,1,2,官方译名,元素,
 Sore Back,背部酸痛,1,2,官方译名,机制,po: MODIFIERS.SOREBACK
 Sour Gas,高硫天然气,1,2,待确认,元素,
-Top Priority,最高优先级,1,2,待确认,机制,
+Top Priority,顶级优先度,1,2,官方译名,机制,官方锚 2026-08-30
 Automatic Dispenser,自动卸物箱,1,1,官方译名,建筑,用户裁决 2026-08-30
 Barbecue,烤肉串,1,1,官方译名,食物,用户裁决 2026-08-30
 Bristle Blossom,毛刺花,1,1,官方译名,植物,po: CODEX.BRISTLEBLOSSOM
 Bunker Door,地堡门,1,1,待确认,建筑,
 Classic Terra,经典类地行星,1,1,待确认,专有名词,
-Computers research branch,信息处理,1,1,官方译名,机制,用户裁决 2026-08-30
-Computing tech,自动化,1,1,官方译名,机制,"用户裁决 2026-08-30；旧串表作""计算""(DUPETRAFFICCONTROL)，版本差异"
-Copy settings,粘贴设置,1,1,官方译名,界面,po: TOOLS.COPYSETTINGS=粘贴设置
+Computers research branch,自动化,1,1,官方译名,机制,用户裁决 2026-08-30；官方锚 2026-08-30
+Computing tech,信息处理,1,1,官方译名,机制,"用户裁决 2026-08-30；旧串表作""计算""(DUPETRAFFICCONTROL)，版本差异；官方锚 2026-08-30"
+Copy settings,复制设置,1,1,官方译名,界面,po: TOOLS.COPYSETTINGS=粘贴设置；官方锚 2026-08-30
 Grill,电动烤炉,1,1,待确认,建筑,
 Internet Archive,Internet Archive（互联网档案馆）,1,1,社区通用,人名站点,
 Microbe Musher,食物压制器,1,1,官方译名,建筑,po: PREFABS.MICROBEMUSHER

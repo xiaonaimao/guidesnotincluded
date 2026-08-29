@@ -22,9 +22,7 @@ archive_snapshot: https://web.archive.org/web/20250806083539id_/https://www.guid
 
 新手讲的大部分灾难故事，多多少少都是因为收人收太多。人少意味着事情干得慢，但整局游戏会轻松*很多*。
 
-我曾经开过一局[只有一个复制人](https://forums.kleientertainment.com/forums/topic/121439-pointless-challenges-inc-presents-one-dupe-zero-printing-pods-too-many-cycles/?ct=1599415432)的游戏。（本站首页那张基地图就是那局的。）那还是 DLC 出现之前的事。在痛苦缓慢地推进了几千个周期后，我终于准备送露比（Ruby）前往时空裂缝。（时空裂缝是太空中的一个目的地，可以说是这个游戏"最终"的成就或目标。）
-
-<!-- TODO-TERMS: Temporal Tear（po 未收录，暂译"时空裂缝"，社区通用） -->
+我曾经开过一局[只有一个复制人](https://forums.kleientertainment.com/forums/topic/121439-pointless-challenges-inc-presents-one-dupe-zero-printing-pods-too-many-cycles/?ct=1599415432)的游戏。（本站首页那张基地图就是那局的。）那还是 DLC 出现之前的事。在痛苦缓慢地推进了几千个周期后，我终于准备送露比（Ruby）前往时间裂口。（时间裂口是太空中的一个目的地，可以说是这个游戏"最终"的成就或目标。）
 
 另一个极端是"100 复制人挑战"。规则很简单：每次打印机出人你必须收，直到满 100 个（或更多）。想看这种挑战的实操，有好几个油管主都做过，至少包括 [Brothgar](https://www.youtube.com/playlist?list=PL2gmcIorFri8WzHHRkBGc74f1ed9HSsgG)、[Francis John](https://www.youtube.com/playlist?list=PLS-hAL3jgjOudjVwQkw38gvua9GwEaCOh) 和 [GrindThisGame](https://www.youtube.com/playlist?list=PLHw_EJXYsdHgnEtFdoJerZg1rMViAVpyd)。Luma Plays 甚至有一期视频是[开局直接塞 100 个复制人](https://www.youtube.com/watch?v=IwNzkXU6O3o)，看能让他们活多久。
 

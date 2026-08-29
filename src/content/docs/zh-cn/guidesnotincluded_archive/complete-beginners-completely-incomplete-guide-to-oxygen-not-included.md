@@ -59,7 +59,7 @@ image: assets/ONI_official_logo-60d1343758.png
 
 ## [自动化入门](getting-started-with-automation.md)
 
-先讲基础：自动化如何运作、需要什么材料、怎么获取。然后给出煤炭发电机、碳素脱离器、气泵和液泵、自动清扫机、智能储物箱的自动化配置。最后讲如何用自动化决定各种发电机启动的先后顺序。
+先讲基础：自动化如何运作、需要什么材料、怎么获取。然后给出煤炭发电机、碳素脱离器、气泵和液泵、自动清扫机、智能存储箱的自动化配置。最后讲如何用自动化决定各种发电机启动的先后顺序。
 
 ## [回收厕所水](recycling-toilet-water.md)
 
@@ -85,13 +85,13 @@ image: assets/ONI_official_logo-60d1343758.png
 
 辐射粒子、数据磁盘与你。
 
-## [太空服基础](atmo-suit-basics.md)
+## [气压服基础](atmo-suit-basics.md)
 
-太空服基础，以及一套基础太空服配置。
+气压服基础，以及一套基础气压服配置。
 
 ## [低科技塑料：壁虎养殖](low-tech-plastic-drecko-ranching.md)
 
-一套简单的养殖场配置与指南，教你怎么把壁虎养成釉鳞壁虎——顺便收获塑料。
+一套简单的养殖场配置与指南，教你怎么把壁虎养成滑鳞壁虎——顺便收获塑料。
 
 ## [水门基础](liquid-lock-basics.md)
 
@@ -111,7 +111,7 @@ image: assets/ONI_official_logo-60d1343758.png
 
 如何用 AETN 制冷。
 
-## [液冷机与蒸汽涡轮冷却回路](thermo-aquatuner-steam-turbine-cooling-loop.md)
+## [液温调节器（俗称液冷机）（俗称液温调节器）与蒸汽涡轮冷却回路](thermo-aquatuner-steam-turbine-cooling-loop.md)
 
 原理与搭建方法。
 

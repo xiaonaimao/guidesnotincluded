@@ -144,7 +144,7 @@ export default defineConfig({
           items: [
             { label: "Choosing duplicants", link: '/choosing-duplicants/', translations: { 'zh-CN': "选择复制人" } },
             { label: "How many dupes?", link: '/how-many-dupes-should-you-have/', translations: { 'zh-CN': "要多少复制人？" } },
-            { label: "Atmo suits", link: '/atmo-suit-basics/', translations: { 'zh-CN': "太空服" } },
+            { label: "Atmo suits", link: '/atmo-suit-basics/', translations: { 'zh-CN': "气压服" } },
           ],
         },
         {
