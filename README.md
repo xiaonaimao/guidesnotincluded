@@ -1,5 +1,13 @@
 # Guides Not Included (archived)
 
+> **简体中文翻译版（进行中 / Simplified Chinese translation in progress）**
+> 本仓库在英文存档基础上制作简体中文翻译版（`src/content/docs/zh-cn/`）。
+> 英文原作：Some Random Finn（[guidesnotincluded.com](https://web.archive.org/web/*/guidesnotincluded.com)，
+> 已下线，Internet Archive 存档），CC BY-NC-SA 4.0；
+> 中文翻译由 [xiaonaimao](https://github.com/xiaonaimao) 完成，译文同样以 CC BY-NC-SA 4.0 发布。
+> 翻译批次统一遵循仓库根目录的术语表 [`glossary.csv`](glossary.csv)，
+> 署名详情见 [attribution 页](src/content/docs/guidesnotincluded_archive/attribution.md)。
+
 An archived, Markdown copy of [**guidesnotincluded.com**](https://web.archive.org/web/*/guidesnotincluded.com)
 — a site of *Oxygen Not Included* builds, guides, and resources ("Keep calm and
 press the space bar"). The original site is offline; this repository restores

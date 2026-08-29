@@ -11,8 +11,22 @@ export const collections = {
     // generateId strips that folder from the slug, so page URLs are unchanged
     // (e.g. .../guidesnotincluded_archive/foo.md -> /foo/, index.md -> site root).
     loader: docsLoader({
-      generateId: ({ entry }) =>
-        entry.replace(/^guidesnotincluded_archive\//, '').replace(/\.[^./]+$/, ''),
+      generateId: ({ entry }) => {
+        // Strip the archive folder from the slug, keeping any locale prefix
+        // (e.g. `zh-cn/`) that Starlight i18n needs:
+        //   guidesnotincluded_archive/foo.md       -> foo
+        //   zh-cn/guidesnotincluded_archive/foo.md -> zh-cn/foo
+        const withoutArchive = entry.replace(
+          /^(?:([^/]+)\/)?guidesnotincluded_archive\//,
+          (_, locale) => (locale ? `${locale}/` : '')
+        );
+        // `<locale>/index.md` is that locale's homepage (`/zh-cn/`), mirroring
+        // how root `index.md` maps to the site root (Starlight only normalises
+        // the bare `index` id itself).
+        return withoutArchive
+          .replace(/\.[^./]+$/, '')
+          .replace(/^([^/]+)\/index$/, '$1');
+      },
     }),
     // Extend Starlight's schema with the provenance front matter that
     // scripts/crawl_archive.py emits on every page. `archived` is written as an

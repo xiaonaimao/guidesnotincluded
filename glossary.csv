@@ -1,0 +1,208 @@
+﻿英文原词,建议简中译名,出现页数,出现次数,置信度,类别,备注
+Some Random Finn,Some Random Finn（不译）,46,53,社区通用,人名站点,原作者
+Wayback Machine,Wayback Machine（互联网档案馆）,46,46,社区通用,人名站点,
+Oxygen,氧气,39,738,官方译名,元素,
+Water,水,33,1454,官方译名,元素,泛指词，按上下文
+dupe,复制人（口语）,32,487,社区通用,机制,社区口语，或译“小人”
+power,电力,29,828,官方译名,机制,
+Tile,砖块,29,388,官方译名,建筑,po: PREFABS.TILE
+Oxygen Not Included,《缺氧》,28,54,官方译名,专有名词,Klei 官方中文名
+Steam (gas),蒸汽,24,186,官方译名,元素,注意与 Steam 平台、steam turbine 词组区分
+space,太空,22,157,官方译名,机制,
+Polluted Water,污染水,21,382,官方译名,元素,germy water 按语境译“带菌水”
+geyser,间歇泉/喷口,21,132,官方译名,机制,po: SPECIES.GEYSER
+automation,自动化,20,380,官方译名,机制,
+overlay,视图（叠层）,20,86,官方译名,界面,po: OVERLAYS.*=X视图
+Francis John,Francis John（不译）,20,49,社区通用,人名站点,社区创作者
+Carbon Dioxide,二氧化碳,19,265,官方译名,元素,
+cooling loop,冷却回路,19,81,社区通用,社区用语,
+Steel,钢,18,94,官方译名,元素,
+Hydrogen,氢气,17,306,官方译名,元素,
+Thermo Aquatuner,液冷机,17,274,社区通用,建筑,亦称液体温控器/AT；官串未检索到
+Storage Bin,储物箱,17,192,社区通用,建筑,
+cycle,周期,17,50,官方译名,机制,游戏内一天；po: UI.ASTEROIDCLOCK.CYCLE
+liquid pipe,液体管道,17,43,社区通用,建筑,
+Petroleum,石油,16,148,官方译名,元素,
+Steam Turbine,蒸汽涡轮,16,142,官方译名,建筑,po: PREFABS.STEAMTURBINE；亦称 ST
+biome,生态群系,16,93,待确认,机制,亦称群落/群系
+Spaced Out,《眼冒金星！》（DLC）,16,31,官方译名,专有名词,DLC 官方中文名
+germ,病菌,15,278,官方译名,机制,
+Wire,电线,15,127,官方译名,建筑,po: PREFABS.WIRE
+atmo suit,太空服,15,65,官方译名,机制,po: SUITS=太空服；亦称气压服
+DLC,DLC（资料片）,15,35,社区通用,专有名词,
+SPOM,SPOM（自持供氧模块）,14,194,社区通用,社区用语,Self-Powered Oxygen Module，保留英文
+Rocket,火箭,14,130,官方译名,建筑,
+ranching,养殖,13,132,官方译名,机制,
+Toilet,马桶,13,101,社区通用,建筑,
+Drecko,壁虎,13,99,官方译名,生物,po: SPECIES.DRECKO
+Door,门,13,68,官方译名,建筑,
+liquid lock,水门,13,67,社区通用,社区用语,
+vacuum,真空,13,56,官方译名,机制,
+asteroid,小行星,13,36,官方译名,机制,
+YouTube,YouTube（不译）,13,31,社区通用,人名站点,
+Battery,电池,12,104,官方译名,建筑,po: PREFABS.BATTERY
+priority,优先级,12,84,官方译名,机制,
+Deconstruct,拆除,12,19,官方译名,界面,po: TOOLS.DECONSTRUCT=拆除工具
+Chlorine,氯气,11,162,官方译名,元素,
+Gas Pump,气泵,11,39,官方译名,建筑,po: PREFABS.GASPUMP
+gas pipe,气管,11,27,社区通用,建筑,
+Coal,煤,10,292,官方译名,元素,
+Anti-Entropy Thermo-Nullifier,反熵消热器（AETN）,10,92,官方译名,建筑,po: PREFABS.MASSIVEHEATSINK
+Carbon Skimmer,碳素脱离器,10,78,待确认,建筑,
+recycling,循环利用,10,48,官方译名,机制,
+Liquid Pump,液泵,10,39,官方译名,建筑,po: PREFABS.LIQUIDPUMP
+Thermo Sensor,温度传感器,10,22,社区通用,建筑,
+Klei,Klei（保留原文）,10,15,社区通用,专有名词,开发商 Klei Entertainment
+Dirt,泥土,9,108,官方译名,元素,
+Slimelung,粘液肺,9,95,官方译名,机制,po: DISEASES.SLIMELUNG（全称粘液肺细菌）
+bridge,桥（管道/电线桥）,9,88,社区通用,建筑,
+Slime,菌泥,9,82,待确认,元素,po 键 ELEMENTS.SLIMEMOLD
+Natural Gas,天然气,9,60,官方译名,元素,
+Ladder,梯子,9,57,官方译名,建筑,po: PREFABS.LADDER
+taming,驯服（改造利用）,9,45,社区通用,社区用语,火山/喷口“驯服”
+hamster wheel,仓鼠轮（人力发电机俗称）,9,36,社区通用,社区用语,
+Duplicant,复制人,9,28,官方译名,机制,
+Atmo Sensor,气压传感器,9,22,社区通用,建筑,
+toilet water,厕所水（盥洗废水）,9,18,社区通用,社区用语,
+airflow,气流,9,15,官方译名,机制,
+critter,小动物,8,147,官方译名,机制,
+Sink,洗手池,8,76,官方译名,建筑,po: PREFABS.WASHSINK
+Algae,藻类,8,62,官方译名,元素,
+Oxygen Diffuser,氧气扩散器,8,50,社区通用,建筑,官串未检索到，社区通行
+Mealwood,米虱木,8,40,官方译名,植物,po: CODEX.MEALWOOD
+research tree,科技树,8,34,社区通用,社区用语,
+Metal Refinery,金属精炼器,8,30,官方译名,建筑,po: PREFABS.METALREFINERY
+insulation,隔热,8,27,官方译名,机制,
+Bed,床,8,26,官方译名,建筑,
+debuff,负面效果,8,23,社区通用,社区用语,
+Polluted Oxygen,污染氧,7,70,官方译名,元素,
+Radbolt,辐射粒子,7,37,待确认,机制,
+watt,瓦特,7,23,官方译名,机制,
+Sweep,清扫,7,18,社区通用,界面,
+ONI,《缺氧》（缩写）,7,17,社区通用,专有名词,
+Airflow Tile,透气砖,7,11,待确认,建筑,亦见气流砖
+Coal Generator,煤炭发电机,6,150,社区通用,建筑,
+morale,士气,6,48,官方译名,机制,po: NOTIFICATIONS.MORALE
+Water Sieve,净水器,6,48,待确认,建筑,亦见“水筛”
+seed,种子,6,40,官方译名,植物,
+Outhouse,户外厕所,6,39,官方译名,建筑,po: PREFABS.OUTHOUSE
+Gas Vent,排气口,6,33,官方译名,建筑,po: PREFABS.GASVENT
+Rock Crusher,碎石机,6,31,官方译名,建筑,po: PREFABS.ROCKCRUSHER
+Iron,铁,6,30,官方译名,元素,
+meteor shower,流星雨,6,26,官方译名,机制,
+trait,特质,6,16,社区通用,机制,
+buff,增益效果,6,15,社区通用,社区用语,
+Disinfect,消毒,6,13,官方译名,界面,po: AUTODISINFECTABLE
+Germ Overlay,病菌视图（F9）,6,11,官方译名,界面,po: OVERLAYS.*=X视图
+Insulated Tile,隔热砖,6,11,官方译名,建筑,po: PREFABS.INSULATIONTILE
+Liquid Vent,排液口,6,11,官方译名,建筑,po: PREFABS.LIQUIDVENT
+metal volcano,金属火山,6,11,社区通用,社区用语,
+Colony Development,殖民地发展（科技分支）,6,7,待确认,机制,
+Wash Basin,洗手盆,5,64,官方译名,建筑,po: PREFABS.WASHBASIN
+room bonus,房间加成,5,47,待确认,机制,
+Polluted Dirt,污染土,5,36,官方译名,元素,
+Super Computer,超级计算机,5,30,官方译名,建筑,po: ROOMS.CRITERIA
+Copper Ore,铜矿,5,27,官方译名,元素,
+Great Hall,豪华餐厅,5,26,官方译名,机制,po: ROOMS.TYPES.GREATHALL
+Harvest,采集,5,26,官方译名,界面,po: TOOLS.HARVEST
+Printing Pod,打印舱,5,26,官方译名,建筑,po: CODEX.HEADQUARTERS
+Compost,堆肥,5,25,官方译名,建筑,po: PREFABS.COMPOST
+seed (map),种子号（地图种子）,5,22,社区通用,社区用语,与植物 seed 同形，按语境
+Pitcher Pump,手压泵,5,20,待确认,建筑,
+Deodorizer,空气净化器,5,17,待确认,建筑,新版官中改名“洗矿机”(ORESCRUBBER)
+Electrolyzer,电解器,5,17,官方译名,建筑,po: PREFABS.ELECTROLYZER
+stress,压力,5,14,官方译名,机制,
+Bedroom,卧室,5,13,官方译名,机制,po: ROOMS.TYPES.BEDROOM
+Solar Panel,太阳能板,5,11,官方译名,建筑,po: PREFABS.SOLARPANEL
+Jahws,Jahws（不译）,5,9,社区通用,人名站点,
+calorie,卡路里,5,7,官方译名,机制,
+Reddit,Reddit（不译）,5,7,社区通用,人名站点,
+Slickster,浮油生物,5,5,官方译名,生物,po: CODEX.DECOR=长毛浮油生物 
+Oil Well,油井,4,54,官方译名,建筑,po: PREFABS.OILWELLCAP
+Research Station,研究站,4,44,官方译名,建筑,po: ROOMS.CRITERIA
+Hatch,好吃哈奇,4,35,官方译名,生物,po: SPECIES.HATCH；社区亦称哈奇/好吃蛋
+Oxylite,氧石,4,24,官方译名,元素,po: PREFABS.OXYLITEREFINERY=氧石精炼器
+skill point,技能点,4,21,官方译名,机制,
+Sand,沙子,4,20,官方译名,元素,
+Data Bank,数据磁盘,4,18,官方译名,机制,po: ITEMS.RESEARCH_DATABANK
+Crude Oil,原油,4,14,官方译名,元素,
+fire pole,滑杆,4,14,官方译名,建筑,po: PREFABS.FIREPOLE
+interest,兴趣,4,9,官方译名,机制,po: APTITUDES=兴趣
+Lavatory,抽水马桶,4,9,待确认,建筑,
+Mullematsch,Mullematsch（不译）,4,8,社区通用,人名站点,
+Oxygen Overlay,氧气视图（F1）,4,8,官方译名,界面,po: OVERLAYS.*=X视图
+Phosphorite,磷矿,4,8,待确认,元素,
+Lit Workspace,明亮工作区,4,7,待确认,机制,
+Agriculture,农业（科技分支）,4,6,官方译名,机制,po: TECHS.AGRICULTURE
+Room Overlay,房间视图,4,6,官方译名,界面,po: OVERLAYS.*=X视图
+Kiln,窑炉,4,5,官方译名,建筑,po: PREFABS.KILN
+Move to,前往,4,5,官方译名,界面,po: CHORES.MOVETO
+Refrigerator,冰箱,4,5,官方译名,建筑,po: PREFABS.REFRIGERATOR
+Rodriguez,制氧模块,4,5,社区通用,社区用语,经典 3kg/s SPOM 布线名
+Advanced Research,高级研究,3,30,官方译名,机制,po: TECHS.ADVANCEDRESEARCH
+Laboratory,实验室,3,30,社区通用,机制,po: NAMEGEN.COLONY 作“研究所”
+Bleach Stone,漂白石,3,22,待确认,元素,
+Mess Table,小餐桌,3,17,官方译名,建筑,po: ROOMS.CRITERIA.MESS_STATION
+freshness,新鲜度,3,13,社区通用,机制,
+Igneous Rock,火成岩,3,10,官方译名,元素,
+Airlock,气动门,3,9,待确认,建筑,
+Shine Bug,发光虫,3,8,官方译名,生物,po: CODEX.SHINEBUG
+Cot,简易床,3,7,待确认,建筑,po: MEDICALCOT=医疗床，基础款未检索到
+Barracks,营房,3,6,官方译名,机制,po: ROOMS.TYPES.BARRACKS
+hydrogen vent,氢气喷口,3,4,待确认,社区用语,
+Mesh Tile,网格砖,3,4,官方译名,建筑,po: PREFABS.MESHTILE
+Muckroot,淤泥根,3,4,官方译名,食物,po: CODEX.MUCKROOT
+Hydroponic Farm,液培砖,2,18,官方译名,建筑,po: PREFABS.HYDROPONICFARM
+Polymer Press,聚合物压塑机,2,15,待确认,建筑,
+Planter Box,种植箱,2,13,官方译名,建筑,po: PREFABS.PLANTERBOX
+Manual Generator,人力发电机,2,12,官方译名,建筑,po: PREFABS.MANUALGENERATOR
+Balm Lily,芳香百合,2,7,官方译名,植物,po: CODEX.BALMLILY
+checkpoint,复制人检查站,2,7,官方译名,机制,po: PREFABS.CHECKPOINT
+Critter Drop-off,小动物投放点,2,7,待确认,建筑,
+Desalinator,脱盐器,2,7,待确认,建筑,
+Shearing Station,剪毛站,2,7,官方译名,建筑,po: PREFABS.SHEARINGSTATION
+Interstellar Research,星际研究,2,6,待确认,机制,
+Lime,石灰,2,6,官方译名,元素,
+duplicant selection,重抽（reroll）,2,5,社区通用,社区用语,
+Mop,擦拭,2,5,官方译名,界面,po: TOOLS.MOP
+Discord,Discord（不译）,2,4,社区通用,人名站点,
+Latrine,公共厕所,2,4,官方译名,机制,po: ROOMS.TYPES.LATRINE
+Virtual Planetarium,虚拟天象仪,2,4,社区通用,建筑,
+Wild Growth,野生,2,4,官方译名,机制,po: MODIFIERS.WILD=野生
+Sedimentary Rock,沉积岩,2,3,官方译名,元素,
+door permission,门权限,2,2,社区通用,社区用语,
+heat transfer,热传递,2,2,官方译名,机制,
+Oxygen Not Included Wiki,ONI Wiki（不译）,2,2,社区通用,人名站点,
+Temperature Overlay,温度视图,2,2,官方译名,界面,po: OVERLAYS.*=X视图
+Terra,类地星体（星球名，不译）,2,2,待确认,专有名词,
+Duplicant Priorities,复制人优先级,1,18,待确认,机制,
+Hydrogen Generator,氢气发电机,1,17,官方译名,建筑,po: PREFABS.HYDROGENGENERATOR
+Wheezewort,冰息萝卜,1,10,官方译名,植物,po: CODEX.WHEEZEWORT
+cool steam vent,冷蒸汽喷口,1,9,待确认,社区用语,
+Novice Research,初级研究,1,8,待确认,机制,
+Oil Reservoir,储油石,1,8,待确认,建筑,
+Building Priorities,建筑优先级,1,7,待确认,机制,
+Grooming Station,照料站,1,7,待确认,建筑,po: RANCH_STATION 译“清洁站”
+gas lock,气锁,1,5,社区通用,社区用语,
+Domestic Growth,人工种植,1,4,社区通用,机制,
+Light Overlay,光照视图（F5）,1,4,官方译名,界面,po: OVERLAYS.*=X视图
+Basic Farming,基础耕种,1,3,待确认,机制,
+Pacu,帕库鱼,1,3,官方译名,生物,po: SPECIES.PACU
+Enable Proximity,启用就近原则,1,2,待确认,界面,
+Granite,花岗岩,1,2,官方译名,元素,
+Obsidian,黑曜石,1,2,官方译名,元素,
+Sore Back,背部酸痛,1,2,官方译名,机制,po: MODIFIERS.SOREBACK
+Sour Gas,高硫天然气,1,2,待确认,元素,
+Top Priority,最高优先级,1,2,待确认,机制,
+Bristle Blossom,毛刺花,1,1,官方译名,植物,po: CODEX.BRISTLEBLOSSOM
+Bunker Door,地堡门,1,1,待确认,建筑,
+Classic Terra,经典类地行星,1,1,待确认,专有名词,
+Copy settings,粘贴设置,1,1,官方译名,界面,po: TOOLS.COPYSETTINGS=粘贴设置
+Grill,电动烤炉,1,1,待确认,建筑,
+Internet Archive,Internet Archive（互联网档案馆）,1,1,社区通用,人名站点,
+Microbe Musher,食物压制器,1,1,官方译名,建筑,po: PREFABS.MICROBEMUSHER
+Natural Gas Generator,天然气发电机,1,1,社区通用,建筑,
+Sandstone,砂岩,1,1,官方译名,元素,
+Set Direction,设置方向,1,1,待确认,界面,
+Unrested,休息不足,1,1,待确认,机制,
+guidesnotincluded.com,Guides Not Included（不译）,0,0,社区通用,人名站点,原站名；仅见于链接与 frontmatter 【未在正文出现，仅 frontmatter/链接】

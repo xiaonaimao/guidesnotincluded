@@ -45,6 +45,25 @@ locally. Site navigation and boilerplate were removed. Some pages are
 incomplete where the archived captures were themselves incomplete.
 :::
 
+## 中文翻译版（Simplified Chinese translation）
+
+本仓库正在制作该存档的**简体中文翻译版**（`src/content/docs/zh-cn/`），署名与授权如下：
+
+> 英文原作 Some Random Finn（Guides Not Included），CC BY-NC-SA 4.0；
+> 中文翻译由 **xiaonaimao**（[github.com/xiaonaimao](https://github.com/xiaonaimao)）完成，
+> 译文同样以 CC BY-NC-SA 4.0 发布。
+
+- **英文原作**：**Some Random Finn**（Guides Not Included，guidesnotincluded.com），以 **[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/)** 授权。
+- **中文翻译**：由 **xiaonaimao** 完成。中文译文属于原指南的演绎作品，与原文同以 **CC BY-NC-SA 4.0** 授权发布（相同方式共享）。
+- 术语以《缺氧》（*Oxygen Not Included*）游戏官方简体中文本地化为准；仓库根目录的 `glossary.csv` 是全部翻译批次的唯一术语依据。
+- 译文不添加内容、不作商业用途；图片沿用原出处（见下节 Images）。
+
+A Simplified Chinese translation of this archive is produced in this
+repository by **xiaonaimao**, based on the original guides by **Some Random
+Finn**. The translation is a derivative work published under the same
+**CC BY-NC-SA 4.0** licence, with terminology following the game's official
+Simplified Chinese localisation (see `glossary.csv` at the repository root).
+
 ## Images
 
 The author noted that images come from several sources — the **Oxygen Not

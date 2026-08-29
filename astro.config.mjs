@@ -29,10 +29,29 @@ function remarkRelativeMdLinks() {
       if (!m) return url;
       const hash = m[2] ?? '';
       const absNoExt = path.resolve(fileDir, m[1]);
-      let slug = path.relative(docsRoot, absNoExt).split(path.sep).join('/');
-      if (slug === 'index' || slug === '') return `${BASE}/${hash}`;
-      if (slug.endsWith('/index')) slug = slug.slice(0, -'/index'.length);
-      return `${BASE}/${slug}/${hash}`;
+      // English-archive links keep their original routes. Links from localized
+      // pages resolve into that locale's own tree (../zh-cn/... or a sibling):
+      // Starlight's fallback serves the English page there until the target is
+      // translated, so links never 404 and auto-upgrade when a batch lands.
+      const candidates = [
+        { base: `${BASE}/`, root: docsRoot },
+        {
+          base: `${BASE}/zh-cn/`,
+          root: path.resolve(
+            file.cwd ?? process.cwd(),
+            'src/content/docs/zh-cn/guidesnotincluded_archive'
+          ),
+        },
+      ];
+      for (const { base, root } of candidates) {
+        const rel = path.relative(root, absNoExt);
+        if (rel.startsWith('..') || path.isAbsolute(rel)) continue;
+        let slug = rel.split(path.sep).join('/');
+        if (slug === 'index' || slug === '') return `${base}${hash}`;
+        if (slug.endsWith('/index')) slug = slug.slice(0, -'/index'.length);
+        return `${base}${slug}/${hash}`;
+      }
+      return url;
     };
     const visit = (/** @type {any} */ node) => {
       if ((node.type === 'link' || node.type === 'definition') && typeof node.url === 'string') {
@@ -71,6 +90,14 @@ export default defineConfig({
           href: 'https://github.com/ahembree/guidesnotincluded',
         },
       ],
+      // i18n: English at the site root, Simplified Chinese under /zh-cn/.
+      // Starlight requires each locale's content directory to be named after
+      // its locale key (src/content/docs/zh-cn/...). Built-in UI strings for
+      // zh-CN ship with Starlight (28/28 keys translated in 0.40.0).
+      locales: {
+        root: { label: 'English', lang: 'en' },
+        'zh-cn': { label: '简体中文', lang: 'zh-CN' },
+      },
       // Restore the per-page social/JSON-LD meta (was overrides/main.html) and
       // the site-wide CC BY-NC-SA / Klei copyright line (was mkdocs `copyright`).
       components: {
@@ -79,112 +106,138 @@ export default defineConfig({
       },
       // Mirrors the hand-curated MkDocs `nav:`. guides.md and home.md are
       // intentionally left out (empty / duplicate of the homepage) but still build.
+      //
+      // Sidebar items use `link` instead of `slug` for the i18n rollout: slug
+      // items are resolved per locale and Starlight throws on any locale whose
+      // translated page does not exist yet, which would break the whole zh-cn
+      // site until every page is translated. Link items are locale-agnostic:
+      // Starlight injects the locale prefix automatically (/zh-cn/... on
+      // Chinese pages), labels for translated pages are localised through the
+      // per-item `translations` map, and current-page highlighting works the
+      // same. As a batch lands, add its `translations` entries; links start
+      // resolving once each page exists in zh-cn.
       sidebar: [
-        { label: 'Home', link: '/' },
+        { label: 'Home', link: '/', translations: { 'zh-CN': '首页' } },
         {
           label: 'Start here',
+          translations: { 'zh-CN': '新手起步' },
           items: [
-            { label: 'The very early game', slug: 'the-very-early-game' },
-            { label: 'The early game', slug: 'the-early-game' },
+            {
+              label: 'The very early game',
+              link: '/the-very-early-game/',
+              translations: { 'zh-CN': '极早期指南' },
+            },
+            { label: 'The early game', link: '/the-early-game/', translations: { 'zh-CN': '前期指南' } },
             {
               label: "Complete beginner's guide",
-              slug: 'complete-beginners-completely-incomplete-guide-to-oxygen-not-included',
+              link: '/complete-beginners-completely-incomplete-guide-to-oxygen-not-included/',
             },
-            { label: "Things I wish I'd known", slug: 'things-i-wish-id-known-when-i-started' },
-            { label: 'Builds overview', slug: 'builds' },
-            { label: 'Base game vs Spaced Out', slug: 'base-game-versus-spaced-out-dlc' },
+            { label: "Things I wish I'd known", link: '/things-i-wish-id-known-when-i-started/' },
+            { label: 'Builds overview', link: '/builds/' },
+            { label: 'Base game vs Spaced Out', link: '/base-game-versus-spaced-out-dlc/' },
           ],
         },
         {
           label: 'Duplicants',
+          translations: { 'zh-CN': '复制人' },
           items: [
-            { label: 'Choosing duplicants', slug: 'choosing-duplicants' },
-            { label: 'How many dupes?', slug: 'how-many-dupes-should-you-have' },
-            { label: 'Atmo suits', slug: 'atmo-suit-basics' },
+            { label: 'Choosing duplicants', link: '/choosing-duplicants/' },
+            { label: 'How many dupes?', link: '/how-many-dupes-should-you-have/' },
+            { label: 'Atmo suits', link: '/atmo-suit-basics/' },
           ],
         },
         {
           label: 'Core mechanics',
+          translations: { 'zh-CN': '核心机制' },
           items: [
-            { label: 'Pipes and pumps', slug: 'pipes-and-pumps' },
-            { label: 'Liquid lock basics', slug: 'liquid-lock-basics' },
-            { label: 'Liquid lock (build)', slug: 'liquid-lock' },
+            { label: 'Pipes and pumps', link: '/pipes-and-pumps/' },
+            { label: 'Liquid lock basics', link: '/liquid-lock-basics/' },
+            { label: 'Liquid lock (build)', link: '/liquid-lock/' },
           ],
         },
         {
           label: 'Oxygen (SPOMs)',
+          translations: { 'zh-CN': '氧气（SPOM）' },
           items: [
-            { label: 'What is a SPOM?', slug: 'to-know-the-spom-is-to-love-the-spom' },
-            { label: 'SPOM — 1 kg/s', slug: 'spom-1kg-s' },
-            { label: 'SPOM — Full Rodriguez', slug: 'spom-3kg-s' },
+            { label: 'What is a SPOM?', link: '/to-know-the-spom-is-to-love-the-spom/' },
+            { label: 'SPOM — 1 kg/s', link: '/spom-1kg-s/' },
+            { label: 'SPOM — Full Rodriguez', link: '/spom-3kg-s/' },
           ],
         },
         {
           label: 'Water & germs',
+          translations: { 'zh-CN': '水源与病菌' },
           items: [
-            { label: 'Getting more water', slug: 'getting-more-water' },
-            { label: 'Decontaminating germy water', slug: 'decontaminating-germy-water-francis' },
-            { label: 'Recycling toilet water', slug: 'recycling-toilet-water' },
-            { label: 'Dealing with slimelung', slug: 'dealing-with-slimelung' },
+            { label: 'Getting more water', link: '/getting-more-water/' },
+            { label: 'Decontaminating germy water', link: '/decontaminating-germy-water-francis/' },
+            { label: 'Recycling toilet water', link: '/recycling-toilet-water/' },
+            { label: 'Dealing with slimelung', link: '/dealing-with-slimelung/' },
           ],
         },
         {
           label: 'Cooling & heat',
+          translations: { 'zh-CN': '冷却与控温' },
           items: [
-            { label: 'Heat transfer basics', slug: 'heat-transfer-basics' },
-            { label: 'Anti-entropy thermo-nullifier (AETN)', slug: 'anti-entropy-thermo-nullifier' },
-            { label: 'AETN cooling loop', slug: 'anti-entropy-thermo-nullifier-cooling' },
-            { label: 'Aquatuner + steam turbine loop', slug: 'aquatuner-steam-turbine-cooling-loo' },
-            { label: 'Thermo aquatuner cooling loop', slug: 'thermo-aquatuner-steam-turbine-cooling-loop' },
+            { label: 'Heat transfer basics', link: '/heat-transfer-basics/' },
+            { label: 'Anti-entropy thermo-nullifier (AETN)', link: '/anti-entropy-thermo-nullifier/' },
+            { label: 'AETN cooling loop', link: '/anti-entropy-thermo-nullifier-cooling/' },
+            { label: 'Aquatuner + steam turbine loop', link: '/aquatuner-steam-turbine-cooling-loo/' },
+            { label: 'Thermo aquatuner cooling loop', link: '/thermo-aquatuner-steam-turbine-cooling-loop/' },
           ],
         },
         {
           label: 'Power & automation',
+          translations: { 'zh-CN': '电力与自动化' },
           items: [
-            { label: 'Getting started with automation', slug: 'getting-started-with-automation' },
-            { label: 'Carbon skimmer automation', slug: 'carbon-skimmer-automation-jahws' },
-            { label: 'Taming a hydrogen vent', slug: 'hydrogen-vent-taming' },
+            { label: 'Getting started with automation', link: '/getting-started-with-automation/' },
+            { label: 'Carbon skimmer automation', link: '/carbon-skimmer-automation-jahws/' },
+            { label: 'Taming a hydrogen vent', link: '/hydrogen-vent-taming/' },
           ],
         },
         {
           label: 'Resources & industry',
+          translations: { 'zh-CN': '资源与工业' },
           items: [
-            { label: 'Getting steel', slug: 'getting-steel' },
-            { label: 'Oil, petroleum & plastic', slug: 'getting-oil-petroleum-and-plastic' },
-            { label: 'Oil well with liquid lock', slug: 'oil-well-with-liquid-lock' },
-            { label: 'Taming metal volcanoes', slug: 'taming-metal-volcanos' },
-            { label: 'Mini industry', slug: 'mini-industry' },
+            { label: 'Getting steel', link: '/getting-steel/' },
+            { label: 'Oil, petroleum & plastic', link: '/getting-oil-petroleum-and-plastic/' },
+            { label: 'Oil well with liquid lock', link: '/oil-well-with-liquid-lock/' },
+            { label: 'Taming metal volcanoes', link: '/taming-metal-volcanos/' },
+            { label: 'Mini industry', link: '/mini-industry/' },
           ],
         },
         {
           label: 'Ranching',
+          translations: { 'zh-CN': '养殖' },
           items: [
-            { label: 'Ranching basics', slug: 'ranching-basics' },
-            { label: 'Drecko ranching (plastic)', slug: 'low-tech-plastic-drecko-ranching' },
+            { label: 'Ranching basics', link: '/ranching-basics/' },
+            { label: 'Drecko ranching (plastic)', link: '/low-tech-plastic-drecko-ranching/' },
           ],
         },
         {
           label: 'Space & Spaced Out (DLC)',
+          translations: { 'zh-CN': '太空与《Spaced Out!》DLC' },
           items: [
-            { label: 'Getting to space', slug: 'getting-to-space-dlc' },
-            { label: 'Spaced Out research', slug: 'spaced-out-research-guide' },
-            { label: 'Dealing with meteor showers', slug: 'dealing-with-meteor-showers' },
-            { label: 'Liquid hydrogen & oxygen', slug: 'liquid-hydrogen-oxygen-small' },
+            { label: 'Getting to space', link: '/getting-to-space-dlc/' },
+            { label: 'Spaced Out research', link: '/spaced-out-research-guide/' },
+            { label: 'Dealing with meteor showers', link: '/dealing-with-meteor-showers/' },
+            { label: 'Liquid hydrogen & oxygen', link: '/liquid-hydrogen-oxygen-small/' },
           ],
         },
         {
           label: 'Drafts & duplicates',
+          translations: { 'zh-CN': '草稿与重复页' },
           items: [
-            { label: 'The early game (draft)', slug: 'copy-of-the-early-game' },
-            { label: 'Getting to space (draft)', slug: 'copy-of-getting-more-water' },
-            { label: 'Work in progress', slug: 'copy-of-wip' },
+            { label: 'The early game (draft)', link: '/copy-of-the-early-game/' },
+            { label: 'Getting to space (draft)', link: '/copy-of-getting-more-water/' },
+            { label: 'Work in progress', link: '/copy-of-wip/' },
           ],
         },
         {
           label: 'About this archive',
+          translations: { 'zh-CN': '关于本存档' },
           items: [
-            { label: 'Attribution & licensing', slug: 'attribution' },
-            { label: 'Guide feedback', slug: 'guide-feedback' },
+            { label: 'Attribution & licensing', link: '/attribution/' },
+            { label: 'Guide feedback', link: '/guide-feedback/' },
           ],
         },
       ],
