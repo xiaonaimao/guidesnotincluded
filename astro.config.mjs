@@ -131,19 +131,20 @@ export default defineConfig({
             {
               label: "Complete beginner's guide",
               link: '/complete-beginners-completely-incomplete-guide-to-oxygen-not-included/',
+              translations: { 'zh-CN': '新手完全指南' },
             },
-            { label: "Things I wish I'd known", link: '/things-i-wish-id-known-when-i-started/' },
-            { label: 'Builds overview', link: '/builds/' },
-            { label: 'Base game vs Spaced Out', link: '/base-game-versus-spaced-out-dlc/' },
+            { label: "Things I wish I'd known", link: '/things-i-wish-id-known-when-i-started/', translations: { 'zh-CN': "早知道就好了" } },
+            { label: "Builds overview", link: '/builds/', translations: { 'zh-CN': "建筑总览" } },
+            { label: "Base game vs Spaced Out", link: '/base-game-versus-spaced-out-dlc/', translations: { 'zh-CN': "本体对比《眼冒金星！》" } },
           ],
         },
         {
           label: 'Duplicants',
           translations: { 'zh-CN': '复制人' },
           items: [
-            { label: 'Choosing duplicants', link: '/choosing-duplicants/' },
-            { label: 'How many dupes?', link: '/how-many-dupes-should-you-have/' },
-            { label: 'Atmo suits', link: '/atmo-suit-basics/' },
+            { label: "Choosing duplicants", link: '/choosing-duplicants/', translations: { 'zh-CN': "选择复制人" } },
+            { label: "How many dupes?", link: '/how-many-dupes-should-you-have/', translations: { 'zh-CN': "要多少复制人？" } },
+            { label: "Atmo suits", link: '/atmo-suit-basics/', translations: { 'zh-CN': "太空服" } },
           ],
         },
         {
