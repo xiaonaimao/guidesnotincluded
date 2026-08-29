@@ -455,7 +455,7 @@ archive_snapshot: https://web.archive.org/web/20250731065451id_/https://www.guid
 
 淤泥根。卡路里已就位，就等你来吃。
 
-默认情况下，复制人不会去采集基地周围生长的野生植物。你可以改成让复制人采集部分或全部野生植物：
+默认情况下，复制人不会去收获基地周围生长的野生植物。你可以改成让复制人收获部分或全部野生植物：
 
 - 点击右下角的收获按钮
 - 在工具筛选里选择启用或禁用收获
@@ -463,7 +463,7 @@ archive_snapshot: https://web.archive.org/web/20250731065451id_/https://www.guid
 
 ![ONI-guide_Harvest.png](../../guidesnotincluded_archive/assets/ONI-guide_Harvest-899df3240e.avif)
 
-采还是不采。用采集图标（右下角）来决定。
+收，还是不收。用收获图标（右下角）来决定。
 
 ![ONI-guide_ResearchBasicFarming_edited.jpg](../../guidesnotincluded_archive/assets/ONI-guide_ResearchBasicFarming_edited-d068da668f.avif)
 

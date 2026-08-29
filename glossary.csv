@@ -104,7 +104,7 @@ Polluted Dirt,污染土,5,36,官方译名,元素,
 Super Computer,超级计算机,5,30,官方译名,建筑,po: ROOMS.CRITERIA
 Copper Ore,铜矿,5,27,官方译名,元素,
 Great Hall,豪华餐厅,5,26,官方译名,机制,po: ROOMS.TYPES.GREATHALL
-Harvest,收获,5,26,官方译名,界面,po: TOOLS.HARVEST；官方锚 2026-08-30
+Harvest,收获,5,26,官方译名,界面,po: TOOLS.HARVEST；官方锚 2026-08-30；动词性用法亦统一为收获（2026-08-30 用户裁决）
 Printing Pod,打印舱,5,26,官方译名,建筑,po: CODEX.HEADQUARTERS
 Compost,堆肥,5,25,官方译名,建筑,po: PREFABS.COMPOST
 seed (map),种子号（地图种子）,5,22,社区通用,社区用语,与植物 seed 同形，按语境
@@ -149,6 +149,7 @@ Airlock,气动门,3,9,待确认,建筑,
 Shine Bug,发光虫,3,8,官方译名,生物,po: CODEX.SHINEBUG
 Cot,床铺,3,7,官方译名,建筑,po: MEDICALCOT=医疗床，基础款未检索到；官方锚 2026-08-30
 Barracks,宿舍,3,6,官方译名,机制,po: ROOMS.TYPES.BARRACKS；官方锚 2026-08-30
+Glossy Drecko,滑鳞壁虎,3,4,官方译名,生物,官方锚 2026-08-30
 hydrogen vent,氢气喷孔,3,4,官方译名,社区用语,官方锚 2026-08-30
 Mesh Tile,网格砖,3,4,官方译名,建筑,po: PREFABS.MESHTILE
 Muckroot,淤泥根,3,4,官方译名,食物,po: CODEX.MUCKROOT
@@ -170,6 +171,7 @@ Latrine,公共厕所,2,4,官方译名,机制,po: ROOMS.TYPES.LATRINE
 Virtual Planetarium,虚拟天象仪,2,4,社区通用,建筑,
 Wild Growth,野生,2,4,官方译名,机制,po: MODIFIERS.WILD=野生
 Sedimentary Rock,沉积岩,2,3,官方译名,元素,
+Allergies,过敏症,2,2,官方译名,机制,官方锚 2026-08-30
 door permission,门权限,2,2,社区通用,社区用语,
 Employment,职业管理,2,2,官方译名,机制,用户裁决 2026-08-30（现行官中；旧串表无此科技名）
 heat transfer,热传递,2,2,官方译名,机制,
@@ -200,15 +202,17 @@ Barbecue,烤肉串,1,1,官方译名,食物,用户裁决 2026-08-30
 Bristle Blossom,毛刺花,1,1,官方译名,植物,po: CODEX.BRISTLEBLOSSOM
 Bunker Door,地堡门,1,1,待确认,建筑,
 Classic Terra,经典类地行星,1,1,待确认,专有名词,
-Computers research branch,自动化,1,1,官方译名,机制,用户裁决 2026-08-30；官方锚 2026-08-30
-Computing tech,信息处理,1,1,官方译名,机制,"用户裁决 2026-08-30；旧串表作""计算""(DUPETRAFFICCONTROL)，版本差异；官方锚 2026-08-30"
+Computers research branch,信息处理,1,1,官方译名,机制,用户裁决 2026-08-30
+Computing tech,自动化,1,1,官方译名,机制,"用户裁决 2026-08-30；旧串表作""计算""(DUPETRAFFICCONTROL)，版本差异"
 Copy settings,复制设置,1,1,官方译名,界面,po: TOOLS.COPYSETTINGS=粘贴设置；官方锚 2026-08-30
 Grill,电动烤炉,1,1,待确认,建筑,
 Internet Archive,Internet Archive（互联网档案馆）,1,1,社区通用,人名站点,
+Lead Suit,铅服,1,1,官方译名,机制,官方锚 2026-08-30
 Microbe Musher,食物压制器,1,1,官方译名,建筑,po: PREFABS.MICROBEMUSHER
 Natural Gas Generator,天然气发电机,1,1,社区通用,建筑,
 Refined Renovations,精致翻修,1,1,官方译名,机制,用户裁决 2026-08-30
 Sandstone,砂岩,1,1,官方译名,元素,
 Set Direction,设置方向,1,1,待确认,界面,
+Temporal Tear,时间裂口,1,1,官方译名,专有名词,官方锚 2026-08-30
 Unrested,休息不足,1,1,待确认,机制,
 guidesnotincluded.com,Guides Not Included（不译）,0,0,社区通用,人名站点,原站名；仅见于链接与 frontmatter 【未在正文出现，仅 frontmatter/链接】
