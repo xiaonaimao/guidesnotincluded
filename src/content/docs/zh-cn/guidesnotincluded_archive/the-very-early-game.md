@@ -545,7 +545,7 @@ archive_snapshot: https://web.archive.org/web/20250731065451id_/https://www.guid
 
   + 初级研究在研究站进行（开局即有）
   + 高级研究在超级计算机进行（在科技树"殖民地发展"分支的"高级研究"中解锁）
-  + 星际研究在虚拟天象仪进行（在计算机分支的"计算技术"中解锁）
+  + 星际研究在虚拟天象仪进行（在信息处理分支的"自动化"中解锁）
 
 - 每种研究站做研究需要不同的材料。
 
@@ -561,7 +561,7 @@ archive_snapshot: https://web.archive.org/web/20250731065451id_/https://www.guid
   + 超级计算机需要"高级研究"技能（研究技能树 1 点）
   + 虚拟天象仪需要"天文学"技能（研究技能树 3 点）
 
-<!-- TODO-TERMS: Computing tech / Computers research branch（po 未收录，暂译"计算技术/计算机分支"）; Astronomy skill（po 未收录，暂译"天文学"） -->
+<!-- TODO-TERMS: Astronomy skill（po 未收录，暂译"天文学"） -->
 
 - 解锁后的研究站都在"站点"分类下。
 
@@ -590,9 +590,7 @@ archive_snapshot: https://web.archive.org/web/20250731065451id_/https://www.guid
 
 超级计算机
 
-通过研究科技树"殖民地发展"分支中的"高级研究"来解锁超级计算机。（你需要先研究"就业"——研究不能跳级。不过没关系，那个我们也用得上。）
-
-<!-- TODO-TERMS: Employment research tech（po 未收录，暂译"就业"） -->
+通过研究科技树"殖民地发展"分支中的"高级研究"来解锁超级计算机。（你需要先研究"职业管理"——研究不能跳级。不过没关系，那个我们也用得上。）
 
 研究完成后，
 

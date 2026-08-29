@@ -171,6 +171,7 @@ Virtual Planetarium,虚拟天象仪,2,4,社区通用,建筑,
 Wild Growth,野生,2,4,官方译名,机制,po: MODIFIERS.WILD=野生
 Sedimentary Rock,沉积岩,2,3,官方译名,元素,
 door permission,门权限,2,2,社区通用,社区用语,
+Employment,职业管理,2,2,官方译名,机制,用户裁决 2026-08-30（现行官中；旧串表无此科技名）
 heat transfer,热传递,2,2,官方译名,机制,
 Oxygen Not Included Wiki,ONI Wiki（不译）,2,2,社区通用,人名站点,
 Temperature Overlay,温度视图,2,2,官方译名,界面,po: OVERLAYS.*=X视图
@@ -194,14 +195,19 @@ Obsidian,黑曜石,1,2,官方译名,元素,
 Sore Back,背部酸痛,1,2,官方译名,机制,po: MODIFIERS.SOREBACK
 Sour Gas,高硫天然气,1,2,待确认,元素,
 Top Priority,最高优先级,1,2,待确认,机制,
+Automatic Dispenser,自动卸物箱,1,1,官方译名,建筑,用户裁决 2026-08-30
+Barbecue,烤肉串,1,1,官方译名,食物,用户裁决 2026-08-30
 Bristle Blossom,毛刺花,1,1,官方译名,植物,po: CODEX.BRISTLEBLOSSOM
 Bunker Door,地堡门,1,1,待确认,建筑,
 Classic Terra,经典类地行星,1,1,待确认,专有名词,
+Computers research branch,信息处理,1,1,官方译名,机制,用户裁决 2026-08-30
+Computing tech,自动化,1,1,官方译名,机制,"用户裁决 2026-08-30；旧串表作""计算""(DUPETRAFFICCONTROL)，版本差异"
 Copy settings,粘贴设置,1,1,官方译名,界面,po: TOOLS.COPYSETTINGS=粘贴设置
 Grill,电动烤炉,1,1,待确认,建筑,
 Internet Archive,Internet Archive（互联网档案馆）,1,1,社区通用,人名站点,
 Microbe Musher,食物压制器,1,1,官方译名,建筑,po: PREFABS.MICROBEMUSHER
 Natural Gas Generator,天然气发电机,1,1,社区通用,建筑,
+Refined Renovations,精致翻修,1,1,官方译名,机制,用户裁决 2026-08-30
 Sandstone,砂岩,1,1,官方译名,元素,
 Set Direction,设置方向,1,1,待确认,界面,
 Unrested,休息不足,1,1,待确认,机制,
