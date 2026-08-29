@@ -117,7 +117,7 @@ archive_snapshot: https://web.archive.org/web/20250716223627id_/https://www.guid
 
 不算豪华，但确实"豪华"。在豪华餐厅用餐的复制人获得 +6 士气加成。
 
-- 点击右上角的水滴图标或按 F6 可以打开管道视图。
+- 点击右上角的水滴图标或按 F6 可以打开水管概览。
 
 - 大部分管道相关的东西都通过"管道"建造图标来建（左下角）。一个值得注意的例外是洗手池，它在"医学"分类下。
 
@@ -144,7 +144,7 @@ archive_snapshot: https://web.archive.org/web/20250716223627id_/https://www.guid
 
 ![ONI-Guide_LiquidOverlayHelper.png](../../guidesnotincluded_archive/assets/ONI-Guide_LiquidOverlayHelper-6e2c6bf2a5.avif)
 
-输入与输出。管道视图激活时会显示输入输出颜色的提示。（黄色是液体过滤器用的，现在用不着。）
+输入与输出。水管概览激活时会显示输入输出颜色的提示。（黄色是液体过滤器用的，现在用不着。）
 
 清空户外厕所和洗手盆费时费力，还会产生污染土和带菌水。马桶和洗手池免维护，所以这是个有用的升级。
 
@@ -164,7 +164,7 @@ archive_snapshot: https://web.archive.org/web/20250716223627id_/https://www.guid
 
 连接输入口或输出口时，永远使用管道。
 
-先看几张我们要建的东西的图。第二张图是管道视图：点击右上角的水滴图标（或按 F6）打开。
+先看几张我们要建的东西的图。第二张图是水管概览：点击右上角的水滴图标（或按 F6）打开。
 
 ![ONI-Guide_Toilets1.png](../../guidesnotincluded_archive/assets/ONI-Guide_Toilets1-2f3cb9ee43.avif)
 
@@ -655,7 +655,7 @@ archive_snapshot: https://web.archive.org/web/20250716223627id_/https://www.guid
 
 ![ONI-Guide-CarbonSkimmer2.png](../../guidesnotincluded_archive/assets/ONI-Guide-CarbonSkimmer2-e51001680a.avif)
 
-管道视图。白色接绿色，绿色接白色。
+水管概览。白色接绿色，绿色接白色。
 
 ![ONI-Guide-CarbonSkimmer4.png](../../guidesnotincluded_archive/assets/ONI-Guide-CarbonSkimmer4-f47354a49b.avif)
 

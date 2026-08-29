@@ -151,9 +151,9 @@ export default defineConfig({
           label: 'Core mechanics',
           translations: { 'zh-CN': '核心机制' },
           items: [
-            { label: 'Pipes and pumps', link: '/pipes-and-pumps/' },
-            { label: 'Liquid lock basics', link: '/liquid-lock-basics/' },
-            { label: 'Liquid lock (build)', link: '/liquid-lock/' },
+            { label: 'Pipes and pumps', link: '/pipes-and-pumps/', translations: { 'zh-CN': '管道与泵' } },
+            { label: 'Liquid lock basics', link: '/liquid-lock-basics/', translations: { 'zh-CN': '水门基础' } },
+            { label: 'Liquid lock (build)', link: '/liquid-lock/', translations: { 'zh-CN': '水门（建造）' } },
           ],
         },
         {
@@ -179,7 +179,7 @@ export default defineConfig({
           label: 'Cooling & heat',
           translations: { 'zh-CN': '冷却与控温' },
           items: [
-            { label: 'Heat transfer basics', link: '/heat-transfer-basics/' },
+            { label: 'Heat transfer basics', link: '/heat-transfer-basics/', translations: { 'zh-CN': '温度传递基础' } },
             { label: 'Anti-entropy thermo-nullifier (AETN)', link: '/anti-entropy-thermo-nullifier/' },
             { label: 'AETN cooling loop', link: '/anti-entropy-thermo-nullifier-cooling/' },
             { label: 'Aquatuner + steam turbine loop', link: '/aquatuner-steam-turbine-cooling-loo/' },
