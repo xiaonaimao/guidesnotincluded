@@ -180,7 +180,7 @@ archive_snapshot: https://web.archive.org/web/20250806085052id_/https://www.guid
 
 每单产出五发炮弹，需要 25 千克精炼金属和 50 千克石油。
 
-精炼金属可以在岩石造粒机或金属精炼器里精炼矿石获得。但更可持续的办法是使用你有火山产出的那种金属。（[如何获得石油](getting-oil-petroleum-and-plastic.md)和[如何驯服金属火山](taming-metal-volcanos.md)各有专文。）
+精炼金属可以在碎石机或金属精炼器里精炼矿石获得。但更可持续的办法是使用你有火山产出的那种金属。（[如何获得石油](getting-oil-petroleum-and-plastic.md)和[如何驯服金属火山](taming-metal-volcanos.md)各有专文。）
 
 写作当时炮弹制造器还有一些小 bug。复制人可以用手压泵从石油里填充石油，但炮弹制造器只有在液体输入口建有（哪怕只是计划建造的）管道时才工作。（这个我也提交了 bug 报告。）
 
