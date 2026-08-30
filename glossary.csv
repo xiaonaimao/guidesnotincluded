@@ -159,7 +159,7 @@ Planter Box,种植箱,2,13,官方译名,建筑,po: PREFABS.PLANTERBOX
 Manual Generator,人力发电机,2,12,官方译名,建筑,po: PREFABS.MANUALGENERATOR
 Balm Lily,芳香百合,2,7,官方译名,植物,po: CODEX.BALMLILY
 checkpoint,复制人检查站,2,7,官方译名,机制,po: PREFABS.CHECKPOINT
-Critter Drop-off,小动物放生点,2,7,官方译名,建筑,官方锚 2026-08-30
+Critter Drop-off,小动物放生点,2,7,官方译名,建筑,"官方锚 2026-08-30（CREATUREDELIVERYPOINT）；替代旧译""投放点"""
 Desalinator,脱盐器,2,7,待确认,建筑,
 Shearing Station,修剪站,2,7,官方译名,建筑,po: PREFABS.SHEARINGSTATION；官方锚 2026-08-30
 Interstellar Research,星际研究,2,6,待确认,机制,

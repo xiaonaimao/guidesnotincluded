@@ -218,10 +218,10 @@ export default defineConfig({
           label: 'Space & Spaced Out (DLC)',
           translations: { 'zh-CN': '太空与《Spaced Out!》DLC' },
           items: [
-            { label: 'Getting to space', link: '/getting-to-space-dlc/' },
-            { label: 'Spaced Out research', link: '/spaced-out-research-guide/' },
-            { label: 'Dealing with meteor showers', link: '/dealing-with-meteor-showers/' },
-            { label: 'Liquid hydrogen & oxygen', link: '/liquid-hydrogen-oxygen-small/' },
+            { label: 'Getting to space', link: '/getting-to-space-dlc/', translations: { 'zh-CN': '进入太空' } },
+            { label: 'Spaced Out research', link: '/spaced-out-research-guide/', translations: { 'zh-CN': '《眼冒金星！》研究' } },
+            { label: 'Dealing with meteor showers', link: '/dealing-with-meteor-showers/', translations: { 'zh-CN': '应对流星雨' } },
+            { label: 'Liquid hydrogen & oxygen', link: '/liquid-hydrogen-oxygen-small/', translations: { 'zh-CN': '液氢与液氧' } },
           ],
         },
         {
@@ -238,7 +238,7 @@ export default defineConfig({
           translations: { 'zh-CN': '关于本存档' },
           items: [
             { label: 'Attribution & licensing', link: '/attribution/' },
-            { label: 'Guide feedback', link: '/guide-feedback/' },
+            { label: 'Guide feedback', link: '/guide-feedback/', translations: { 'zh-CN': '指南反馈' } },
           ],
         },
       ],
