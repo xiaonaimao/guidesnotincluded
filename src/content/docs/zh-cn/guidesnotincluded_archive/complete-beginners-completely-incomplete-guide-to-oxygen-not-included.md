@@ -111,7 +111,7 @@ image: assets/ONI_official_logo-60d1343758.png
 
 如何用 AETN 制冷。
 
-## [液温调节器（俗称液冷机）（俗称液温调节器）与蒸汽涡轮冷却回路](thermo-aquatuner-steam-turbine-cooling-loop.md)
+## [液温调节器（俗称液冷机）与蒸汽涡轮冷却回路](thermo-aquatuner-steam-turbine-cooling-loop.md)
 
 原理与搭建方法。
 
