@@ -180,19 +180,19 @@ export default defineConfig({
           translations: { 'zh-CN': '冷却与控温' },
           items: [
             { label: 'Heat transfer basics', link: '/heat-transfer-basics/', translations: { 'zh-CN': '温度传递基础' } },
-            { label: 'Anti-entropy thermo-nullifier (AETN)', link: '/anti-entropy-thermo-nullifier/' },
-            { label: 'AETN cooling loop', link: '/anti-entropy-thermo-nullifier-cooling/' },
-            { label: 'Aquatuner + steam turbine loop', link: '/aquatuner-steam-turbine-cooling-loo/' },
-            { label: 'Thermo aquatuner cooling loop', link: '/thermo-aquatuner-steam-turbine-cooling-loop/' },
+            { label: 'Anti-entropy thermo-nullifier (AETN)', link: '/anti-entropy-thermo-nullifier/', translations: { 'zh-CN': '反熵消热器（AETN）' } },
+            { label: 'AETN cooling loop', link: '/anti-entropy-thermo-nullifier-cooling/', translations: { 'zh-CN': '反熵消热器冷却' } },
+            { label: 'Aquatuner + steam turbine loop', link: '/aquatuner-steam-turbine-cooling-loo/', translations: { 'zh-CN': '液温调节器与蒸汽涡轮冷却回路' } },
+            { label: 'Thermo aquatuner cooling loop', link: '/thermo-aquatuner-steam-turbine-cooling-loop/', translations: { 'zh-CN': '液温调节器与蒸汽涡轮冷却（原理）' } },
           ],
         },
         {
           label: 'Power & automation',
           translations: { 'zh-CN': '电力与自动化' },
           items: [
-            { label: 'Getting started with automation', link: '/getting-started-with-automation/' },
-            { label: 'Carbon skimmer automation', link: '/carbon-skimmer-automation-jahws/' },
-            { label: 'Taming a hydrogen vent', link: '/hydrogen-vent-taming/' },
+            { label: 'Getting started with automation', link: '/getting-started-with-automation/', translations: { 'zh-CN': '自动化入门' } },
+            { label: 'Carbon skimmer automation', link: '/carbon-skimmer-automation-jahws/', translations: { 'zh-CN': '碳素脱离器自动化' } },
+            { label: 'Taming a hydrogen vent', link: '/hydrogen-vent-taming/', translations: { 'zh-CN': '驯服氢气喷孔' } },
           ],
         },
         {

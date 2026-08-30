@@ -1,13 +1,19 @@
+anti-entropy-thermo-nullifier
+anti-entropy-thermo-nullifier-cooling
+aquatuner-steam-turbine-cooling-loo
 atmo-suit-basics
 base-game-versus-spaced-out-dlc
 builds
+carbon-skimmer-automation-jahws
 choosing-duplicants
 complete-beginners-completely-incomplete-guide-to-oxygen-not-included
 dealing-with-slimelung
 decontaminating-germy-water-francis
 getting-more-water
+getting-started-with-automation
 heat-transfer-basics
 how-many-dupes-should-you-have
+hydrogen-vent-taming
 index
 liquid-lock
 liquid-lock-basics
@@ -17,5 +23,6 @@ spom-1kg-s
 spom-3kg-s
 the-early-game
 the-very-early-game
+thermo-aquatuner-steam-turbine-cooling-loop
 things-i-wish-id-known-when-i-started
 to-know-the-spom-is-to-love-the-spom

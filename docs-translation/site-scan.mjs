@@ -9,7 +9,7 @@ const DIR = join(ROOT, 'src/content/docs/zh-cn/guidesnotincluded_archive');
 const banned = readFileSync(join(ROOT, 'banned-terms.txt'), 'utf8')
   .split(/\r?\n/).map(l => l.trim()).filter(l => l && !l.startsWith('#'));
 // 子串例外：命中前先剔除这些现役词
-const EXCEPTION_SUBSTR = ['烤肉串', '（俗称液冷机）', '米虱木', '太空服锻造台'];
+const EXCEPTION_SUBSTR = ['烤肉串', '（俗称液冷机）', '米虱木', '太空服锻造台', '氢气管道', '氧气管道', '废气管道'];
 // 人工复核项：泛指动词/词，命中照报，由人看上下文裁决
 const REVIEW_ONLY = ['采集', '拆除', '野生'];
 
