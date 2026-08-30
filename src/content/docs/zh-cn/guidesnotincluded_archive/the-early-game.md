@@ -293,9 +293,9 @@ archive_snapshot: https://web.archive.org/web/20250716223627id_/https://www.guid
 
 ![ONI-Guide_ReedFiber2.png](../../guidesnotincluded_archive/assets/ONI-Guide_ReedFiber2-e614f45f81.avif)
 
-芦苇（下方）。绿色的东西是粘液肺。粉色的是来自伙伴芽（左数第二株）的"花香"。粘液肺：坏；花香：好（除了有"过敏"特质的复制人）。
+芦苇（下方）。绿色的东西是粘液肺。粉色的是来自同伴芽（左数第二株）的"花香"。粘液肺：坏；花香：好（除了有"过敏"特质的复制人）。
 
-<!-- TODO-TERMS: Buddy Bud 伙伴芽、Floral Scents 花香为描述性译名 -->
+<!-- TODO-TERMS: Buddy Bud 同伴芽、Floral Scents 花香为描述性译名 -->
 
 ![ONI-Guide_ThimbleReedGrowing.png](../../guidesnotincluded_archive/assets/ONI-Guide_ThimbleReedGrowing-6a31afd09e.avif)
 

@@ -3,12 +3,16 @@ base-game-versus-spaced-out-dlc
 builds
 choosing-duplicants
 complete-beginners-completely-incomplete-guide-to-oxygen-not-included
+dealing-with-slimelung
+decontaminating-germy-water-francis
+getting-more-water
 heat-transfer-basics
 how-many-dupes-should-you-have
 index
 liquid-lock
 liquid-lock-basics
 pipes-and-pumps
+recycling-toilet-water
 spom-1kg-s
 spom-3kg-s
 the-early-game

@@ -169,10 +169,10 @@ export default defineConfig({
           label: 'Water & germs',
           translations: { 'zh-CN': '水源与病菌' },
           items: [
-            { label: 'Getting more water', link: '/getting-more-water/' },
-            { label: 'Decontaminating germy water', link: '/decontaminating-germy-water-francis/' },
-            { label: 'Recycling toilet water', link: '/recycling-toilet-water/' },
-            { label: 'Dealing with slimelung', link: '/dealing-with-slimelung/' },
+            { label: 'Getting more water', link: '/getting-more-water/', translations: { 'zh-CN': '获取（更多）水' } },
+            { label: 'Decontaminating germy water', link: '/decontaminating-germy-water-francis/', translations: { 'zh-CN': '净化带菌水' } },
+            { label: 'Recycling toilet water', link: '/recycling-toilet-water/', translations: { 'zh-CN': '回收厕所水' } },
+            { label: 'Dealing with slimelung', link: '/dealing-with-slimelung/', translations: { 'zh-CN': '应对粘液肺' } },
           ],
         },
         {
