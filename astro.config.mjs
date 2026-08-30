@@ -6,7 +6,7 @@ import { unified } from '@astrojs/markdown-remark';
 import starlight from '@astrojs/starlight';
 
 // Deployed as a GitHub project page, so the site lives under a /base/ subpath.
-const SITE = 'https://ahembree.github.io';
+const SITE = 'https://xiaonaimao.github.io';
 const BASE = '/guidesnotincluded';
 
 // The crawler writes cross-page links as relative `.md` paths (e.g.
