@@ -199,11 +199,11 @@ export default defineConfig({
           label: 'Resources & industry',
           translations: { 'zh-CN': '资源与工业' },
           items: [
-            { label: 'Getting steel', link: '/getting-steel/' },
-            { label: 'Oil, petroleum & plastic', link: '/getting-oil-petroleum-and-plastic/' },
-            { label: 'Oil well with liquid lock', link: '/oil-well-with-liquid-lock/' },
-            { label: 'Taming metal volcanoes', link: '/taming-metal-volcanos/' },
-            { label: 'Mini industry', link: '/mini-industry/' },
+            { label: 'Getting steel', link: '/getting-steel/', translations: { 'zh-CN': '获取钢材' } },
+            { label: 'Oil, petroleum & plastic', link: '/getting-oil-petroleum-and-plastic/', translations: { 'zh-CN': '原油、石油与塑料' } },
+            { label: 'Oil well with liquid lock', link: '/oil-well-with-liquid-lock/', translations: { 'zh-CN': '油井与水门' } },
+            { label: 'Taming metal volcanoes', link: '/taming-metal-volcanos/', translations: { 'zh-CN': '驯服金属火山' } },
+            { label: 'Mini industry', link: '/mini-industry/', translations: { 'zh-CN': '小型工业' } },
           ],
         },
         {
