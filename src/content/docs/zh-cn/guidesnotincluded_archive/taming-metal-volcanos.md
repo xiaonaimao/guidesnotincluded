@@ -16,7 +16,7 @@ archive_snapshot: https://web.archive.org/web/20250806081011id_/https://www.guid
 
 ![ONI-MetalVolcano1.png](../../guidesnotincluded_archive/assets/ONI-MetalVolcano1-c84845b889.avif)
 
-<!-- TODO-TERMS: metal volcano（社区通称"金属火山"；官方串表对喷口仅称"火山/小型火山"，无专名条目）; conveyor shutoff（暂译"运输截断阀"）; uncovered 状态词（暂保留英文+括号注"无覆盖"，待裁决是否入正文） -->
+<!-- TODO-TERMS: metal volcano（社区通称"金属火山"；官方串表对喷口仅称"火山/小型火山"，无专名条目）; conveyor shutoff（暂译"运输截断阀"） -->
 
 ## 认识你的金属
 
