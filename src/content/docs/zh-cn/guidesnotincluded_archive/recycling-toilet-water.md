@@ -395,7 +395,7 @@ archive_snapshot: https://web.archive.org/web/20250731071301id_/https://www.guid
 
 现在放一台净水器，氯气房出来的管道接到净水器的输入口（白色接口）。净水器吃沙子，所以可以加一个存储箱设为沙子（在"过滤介质"分类下）。
 
-净水器的输出应该接到一个液体管道桥上。它就是你的多余水排放机构。让液体管道桥接回你的（净）水进水管道，然后分出第二条线，通向你想让多余净水去的地方（SPOM、毛刺花、储水区等等）。
+净水器的输出应该接到一个液体管道桥上。它就是你的多余水排放机构。让液体管道桥接回你的（净）水进水管道，然后分出第二条线，通向你想让多余净水去的地方（模块、毛刺花、储水区等等）。
 
 ![ONI-Guide-BathroomDecontaminationComplete1.png](../../guidesnotincluded_archive/assets/ONI-Guide-BathroomDecontaminationComplete1-761b680daa.avif)
 

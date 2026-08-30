@@ -160,9 +160,9 @@ export default defineConfig({
           label: 'Oxygen (SPOMs)',
           translations: { 'zh-CN': '氧气（SPOM）' },
           items: [
-            { label: 'What is a SPOM?', link: '/to-know-the-spom-is-to-love-the-spom/', translations: { 'zh-CN': '什么是 SPOM？' } },
-            { label: 'SPOM — 1 kg/s', link: '/spom-1kg-s/', translations: { 'zh-CN': 'SPOM——1 千克/秒' } },
-            { label: 'SPOM — Full Rodriguez', link: '/spom-3kg-s/', translations: { 'zh-CN': 'SPOM——完整制氧模块' } },
+            { label: 'What is a SPOM?', link: '/to-know-the-spom-is-to-love-the-spom/', translations: { 'zh-CN': '什么是自供电制氧模块？' } },
+            { label: 'SPOM — 1 kg/s', link: '/spom-1kg-s/', translations: { 'zh-CN': '自供电制氧模块——1 千克/秒' } },
+            { label: 'SPOM — Full Rodriguez', link: '/spom-3kg-s/', translations: { 'zh-CN': '自供电制氧模块——完整 Rodriguez' } },
           ],
         },
         {

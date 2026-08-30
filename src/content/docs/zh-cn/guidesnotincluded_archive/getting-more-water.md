@@ -111,9 +111,9 @@ archive_snapshot: https://web.archive.org/web/20250806092524id_/https://www.guid
 - 低温蒸汽喷孔名字听着诱人，但那个"低温"是相对于蒸汽说的，其实一点也不凉：+110C
 - 蒸汽喷孔产出的蒸汽高达 +500C
 
-这些里面最简单的用法，也许是清水泉喂[SPOM](to-know-the-spom-is-to-love-the-spom.md)（产氧装置，本指南后面讲）。
+这些里面最简单的用法，也许是清水泉喂[自供电制氧模块](to-know-the-spom-is-to-love-the-spom.md)（产氧装置，本指南后面讲）。
 
-如果你把 SPOM 建在清水泉（或盐水泉）旁边，热水满地图跑的风险就小多了。（记得用隔热液体管道。）
+如果你把模块建在清水泉（或盐水泉）旁边，热水满地图跑的风险就小多了。（记得用隔热液体管道。）
 
 如果你在清水泉或盐水泉周围和下方挖出一片区域，可以内衬隔热砖，然后抽光所有气体制造真空，把这片液体存储区封起来。这样热液体对周围环境的温度传递就降到最低。
 
@@ -169,15 +169,15 @@ archive_snapshot: https://web.archive.org/web/20250806092524id_/https://www.guid
 
 要把低温蒸汽喷孔的水降到 +30 左右的舒适温度，需要大量冷却和大量电力。不如考虑按需降温。
 
-比如，如果你是在喂 SPOM，把水温降到 +70 以下用处不大。因为不管进水多少度，SPOM 产出的气体最低就是 +70C。
+比如，如果你是在喂模块，把水温降到 +70 以下用处不大。因为不管进水多少度，模块产出的气体最低就是 +70C。
 
-用我从前一局游戏里的例子来收尾本节：喂 SPOM。
+用我从前一局游戏里的例子来收尾本节：喂 自供电制氧模块。
 
 ![ONI_Guide_CoolSteamVentSetup1.png](../../guidesnotincluded_archive/assets/ONI_Guide_CoolSteamVentSetup1-e63a9175a3.avif)
 
 ![ONI_Guide_CoolSteamVentSetup2.png](../../guidesnotincluded_archive/assets/ONI_Guide_CoolSteamVentSetup2-c5400e34fe.avif)
 
-接驳低温蒸汽喷孔。液温调节器设为 70 度。低温蒸汽喷孔下方有足够空间储水，整个区域处于真空。水被直接泵往 SPOM，用隔热液体管道限制温度传递。
+接驳低温蒸汽喷孔。液温调节器设为 70 度。低温蒸汽喷孔下方有足够空间储水，整个区域处于真空。水被直接泵往模块，用隔热液体管道限制温度传递。
 
 ---
 

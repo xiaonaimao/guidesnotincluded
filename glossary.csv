@@ -30,7 +30,7 @@ germ,病菌,15,278,官方译名,机制,
 Wire,电线,15,127,官方译名,建筑,po: PREFABS.WIRE
 atmo suit,气压服,15,65,官方译名,机制,po: SUITS=太空服；亦称气压服；官方锚 2026-08-30
 DLC,DLC（资料片）,15,35,社区通用,专有名词,
-SPOM,SPOM（自持供氧模块）,14,194,社区通用,社区用语,Self-Powered Oxygen Module，保留英文
+SPOM,自供电制氧模块,14,194,社区通用,社区用语,用户裁决 2026-08-30：全站统一自供电制氧模块，后文指代用该模块/模块，不裸用 SPOM；首现附英文缩写说明（wiki.gg 作 Machine，QuQuasar 原帖作 Module）
 Rocket,火箭,14,130,官方译名,建筑,
 ranching,养殖,13,132,官方译名,机制,
 Toilet,马桶,13,101,社区通用,建筑,
@@ -138,7 +138,7 @@ Room Overlay,房间概览,4,6,官方译名,界面,po: OVERLAYS.*=X视图；官�
 Kiln,窑炉,4,5,官方译名,建筑,po: PREFABS.KILN
 Move to,前往,4,5,官方译名,界面,po: CHORES.MOVETO
 Refrigerator,冰箱,4,5,官方译名,建筑,po: PREFABS.REFRIGERATOR
-Rodriguez,制氧模块,4,5,社区通用,社区用语,经典 3kg/s SPOM 布线名
+Rodriguez,Rodriguez（保留原名）,4,5,社区通用,社区用语,用户裁决 2026-08-30：社区以设计者 Nicolás Rodriguez 命名的电解制氧布局（氢氧密度差上下分层、无过滤分离、省气体过滤电耗）；变体按电解器台数：完整 4 台/半 2 台/准 1 台；罗德里格斯仍为禁用音译
 Advanced Research,高级研究,3,30,官方译名,机制,po: TECHS.ADVANCEDRESEARCH
 Laboratory,实验室,3,30,社区通用,机制,po: NAMEGEN.COLONY 作“研究所”
 Bleach Stone,漂白石,3,22,待确认,元素,

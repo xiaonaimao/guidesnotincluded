@@ -77,9 +77,9 @@ image: assets/ONI_official_logo-60d1343758.png
 
 把污水、盐水和浓盐水变成水。以及水喷口，以及如何给它们的产出加热或降温。
 
-## [氧气：懂 SPOM，爱 SPOM](to-know-the-spom-is-to-love-the-spom.md)
+## [氧气：自供电制氧模块](to-know-the-spom-is-to-love-the-spom.md)
 
-讲 SPOM 的原理，以及搭建时要考虑的一些事。
+讲模块的原理，以及搭建时要考虑的一些事。
 
 ## [《眼冒金星！》研究](spaced-out-research-guide.md)
 
