@@ -75,7 +75,7 @@ export default defineConfig({
   markdown: { processor: unified({ remarkPlugins: [remarkRelativeMdLinks] }) },
   integrations: [
     starlight({
-      title: 'Guides Not Included',
+      title: 'Guides Not Included 缺氧指南',
       description:
         'An archived copy of guidesnotincluded.com — Oxygen Not Included builds, ' +
         'guides, and resources. Restored from the Internet Archive.',
@@ -210,8 +210,8 @@ export default defineConfig({
           label: 'Ranching',
           translations: { 'zh-CN': '养殖' },
           items: [
-            { label: 'Ranching basics', link: '/ranching-basics/' },
-            { label: 'Drecko ranching (plastic)', link: '/low-tech-plastic-drecko-ranching/' },
+            { label: 'Ranching basics', link: '/ranching-basics/', translations: { 'zh-CN': '养殖基础' } },
+            { label: 'Drecko ranching (plastic)', link: '/low-tech-plastic-drecko-ranching/', translations: { 'zh-CN': '低科技塑料：壁虎养殖' } },
           ],
         },
         {
